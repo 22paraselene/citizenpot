@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:melon_slice",
+      "count": 2
+    },
+    {
+      "item":"citizenpot:food_ingredients_frozen"
+    },
+    {
+      "item":"citizenpot:food_ingredients_inedible"
+    }
+  ],
+  "result": "crockpot:watermelon_icle"
+}

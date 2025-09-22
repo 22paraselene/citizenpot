@@ -1,0 +1,6 @@
+{
+  "values": [
+    {"id": "crockpot:asparagus_seeds","required": false},
+    {"id": "farm_and_charm:lettuce_seeds","required": false}
+  ]
+}

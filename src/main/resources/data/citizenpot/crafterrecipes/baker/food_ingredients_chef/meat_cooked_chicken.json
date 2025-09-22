@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:cooked_chicken"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_meat",
+  "show-tooltip": true
+}

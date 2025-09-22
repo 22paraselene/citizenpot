@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:poisonous_potato"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_veggie",
+  "show-tooltip": true
+}

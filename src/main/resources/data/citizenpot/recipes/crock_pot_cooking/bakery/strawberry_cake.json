@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "crockpot:crock_pot_cooking",
+  "cookingtime": 200,
+  "potlevel": 0,
+  "priority": 10,
+  "requirements": [
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "bakery:cake_dough"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "bakery:strawberry_jam"
+      },
+      "quantity": 2
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "bakery:strawberry_cake"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "citizenpot:food_ingredients_sweetener",
+      "count": 3
+    }
+  ],
+  "result": "crockpot:pumpkin_cookie"
+}

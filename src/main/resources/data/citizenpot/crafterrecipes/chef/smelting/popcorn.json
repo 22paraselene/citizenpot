@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "item": "crockpot:corn"
+    }
+  ],
+  "result": "crockpot:popcorn"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "crockpot:food_values",
+  "items": [
+    "minecraft:sugar",
+    "bakery:chocolate_truffle"
+  ],
+  "values": {
+    "SWEETENER": 0.5
+  }
+}

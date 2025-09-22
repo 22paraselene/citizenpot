@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farm_and_charm"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "farm_and_charm:dough"
+  },
+  "result": "minecraft:bread"
+}

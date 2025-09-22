@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_bread"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "citizenpot:food_ingredients_veggie",
+      "count": 2
+    }
+  ],
+  "result": "bakery:grilled_salmon_sandwich"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_monster",
+      "count": 3
+    },
+    {
+      "item": "citizenpot:food_ingredients_egg"
+    },
+    {
+      "item": "citizenpot:food_ingredients_veggie"
+    }
+  ],
+  "result": "crockpot:monster_tartare"
+}

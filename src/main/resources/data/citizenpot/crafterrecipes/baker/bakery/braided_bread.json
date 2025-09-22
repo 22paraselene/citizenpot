@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "farm_and_charm:dough",
+      "count": 2
+    },
+    {
+      "item": "bakery:sweet_dough"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "count": 5,
+  "result": "bakery:braided_bread"
+}

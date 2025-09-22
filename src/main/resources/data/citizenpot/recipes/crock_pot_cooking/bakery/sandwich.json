@@ -1,0 +1,45 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "crockpot:crock_pot_cooking",
+  "cookingtime": 200,
+  "potlevel": 0,
+  "priority": 10,
+  "requirements": [
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "tag": "bakery:bread"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "CATEGORY_MIN",
+      "category": "MEAT",
+      "min": 1.0
+    },
+    {
+      "type": "CATEGORY_MAX",
+      "category": "INEDIBLE",
+      "max": 0.5
+    },
+    {
+      "type": "CATEGORY_MAX",
+      "category": "MONSTER",
+      "max": 0.5
+    }
+  ],
+  "result": "bakery:sandwich"
+}

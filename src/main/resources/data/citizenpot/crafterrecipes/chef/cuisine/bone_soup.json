@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:bone",
+      "count": 2
+    },
+    {
+      "item": "crockpot:onion"
+    },
+    {
+      "item": "citizenpot:food_ingredients_inedible"
+    }
+  ],
+  "result": "crockpot:bone_soup"
+}

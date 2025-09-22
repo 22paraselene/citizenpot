@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "crockpot:crock_pot_cooking",
+  "cookingtime": 200,
+  "potlevel": 0,
+  "priority": 10,
+  "requirements": [
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "tag": "bakery:bread"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "CATEGORY_MIN",
+      "category": "SWEETENER",
+      "min": 2.0
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "bakery:jam_roll"
+  }
+}

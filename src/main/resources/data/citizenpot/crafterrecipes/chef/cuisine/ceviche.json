@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_fish",
+      "count": 2
+    },
+    {
+      "item": "citizenpot:food_ingredients_sweetener",
+      "count": 2
+    }
+  ],
+  "result": "crockpot:ceviche"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_egg"
+    }
+  ],
+  "result": "crockpot:cooked_egg"
+}

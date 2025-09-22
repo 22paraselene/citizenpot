@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:baked_potato",
+      "count": 3
+    },
+    {
+      "item": "crockpot:garlic"
+    }
+  ],
+  "result": "crockpot:mashed_potatoes"
+}

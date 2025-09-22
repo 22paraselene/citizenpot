@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:crafting_bowl",
+  "ingredients": [
+    {
+      "tag": "farm_and_charm:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "bakery:eggs"
+    },
+    {
+      "tag": "bakery:water_bottles"
+    }
+  ],
+  "result": {
+    "item": "bakery:sweet_dough"
+  }
+}

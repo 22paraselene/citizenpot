@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "crockpot:syrup"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_sweetener",
+  "show-tooltip": true
+}

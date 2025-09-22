@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:tropical_fish"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_fish",
+  "show-tooltip": true
+}

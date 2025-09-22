@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item":"citizenpot:food_ingredients_inedible",
+      "count": 2
+    },
+    {
+      "item": "citizenpot:food_ingredients_sweetener"
+    },
+    {
+      "item": "crockpot:popcorn"
+    }
+  ],
+  "result": "crockpot:pow_cake"
+}

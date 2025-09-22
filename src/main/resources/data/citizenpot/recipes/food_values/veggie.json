@@ -1,0 +1,10 @@
+{
+  "type": "crockpot:food_values",
+  "items": [
+    "farm_and_charm:wild_ribwort",
+    "farm_and_charm:wild_nettle"
+  ],
+  "values": {
+    "VEGGIE": 0.5
+  }
+}

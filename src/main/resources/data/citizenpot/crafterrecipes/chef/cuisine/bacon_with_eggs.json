@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farm_and_charm"
+    }
+  ],
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "farm_and_charm:butter"
+    },
+    {
+      "item": "citizenpot:food_ingredients_egg"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": "farm_and_charm:bacon_with_eggs"
+}

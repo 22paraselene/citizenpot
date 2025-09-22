@@ -1,0 +1,49 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "crockpot:crock_pot_cooking",
+  "cookingtime": 80,
+  "potlevel": 0,
+  "priority": 50,
+  "requirements": [
+    {
+      "type": "CATEGORY_MIN",
+      "category": "DAIRY",
+      "min": 1.0
+    },
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "bakery:chocolate_truffle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "minecraft:sugar"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "bakery:jar"
+      },
+      "quantity": 1
+    }
+  ],
+  "result": "bakery:chocolate_jam"
+}

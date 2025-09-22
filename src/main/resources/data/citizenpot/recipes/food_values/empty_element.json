@@ -1,0 +1,28 @@
+{
+  "type": "crockpot:food_values",
+  "items": [
+    "bakery:baguette",
+    "bakery:braided_bread",
+    "bakery:bread",
+    "bakery:bun",
+    "bakery:cake_dough",
+    "bakery:crusty_bread",
+    "farm_and_charm:oat",
+    "bakery:sweet_dough",
+    "bakery:toast",
+    "farm_and_charm:bacon_with_eggs",
+    "farm_and_charm:dough",
+    "farm_and_charm:flour",
+    "farm_and_charm:raw_pasta",
+    "farm_and_charm:roasted_corn",
+    "farm_and_charm:simple_tomato_soup",
+    "farm_and_charm:yeast",
+    "minecraft:bread",
+    "minecraft:red_dye",
+    "minecraft:wheat",
+    "minecraft:white_dye"
+  ],
+  "values": {
+    "INEDIBLE": 0.1
+  }
+}

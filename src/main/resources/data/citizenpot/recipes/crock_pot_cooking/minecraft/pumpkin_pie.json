@@ -1,0 +1,39 @@
+{
+  "type": "crockpot:crock_pot_cooking",
+  "cookingtime": 200,
+  "potlevel": 0,
+  "priority": 20,
+  "requirements": [
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "tag": "forge:vegetables/pumpkin"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "minecraft:sugar"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "CATEGORY_MIN",
+      "category": "EGG",
+      "min": 0.5
+       }, {
+      "type": "CATEGORY_MAX",
+      "category": "INEDIBLE",
+      "max": 0.5
+    }, {
+      "type": "CATEGORY_MAX",
+      "category": "MONSTER",
+      "max": 0.0
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:pumpkin_pie"
+  }
+}

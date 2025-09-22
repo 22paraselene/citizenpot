@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "materials_integration"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "materials_integration"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "materials_integration:rock_integration"
+    },
+    "C": {
+      "tag": "minecraft:coals"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBB",
+    "SCS"
+  ],
+  "result": {
+    "item": "crockpot:crock_pot"
+  },
+  "show_notification": true
+}

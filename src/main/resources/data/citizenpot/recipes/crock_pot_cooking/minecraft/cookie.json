@@ -1,0 +1,44 @@
+{
+  "type": "crockpot:crock_pot_cooking",
+  "cookingtime": 200,
+  "potlevel": 0,
+  "priority": 10,
+  "requirements": [
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "tag": "farm_and_charm:wheat"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "CATEGORY_MAX",
+      "category": "MEAT",
+      "max": 0.0
+    },
+    {
+      "type": "CATEGORY_MAX",
+      "category": "FISH",
+      "max": 0.0
+       }, {
+      "type": "CATEGORY_MAX",
+      "category": "INEDIBLE",
+      "max": 0.5
+    }, {
+      "type": "CATEGORY_MAX",
+      "category": "MONSTER",
+      "max": 0.0
+    }
+  ],
+  "result": {
+    "count": 12,
+    "item": "minecraft:cookie"
+  }
+}

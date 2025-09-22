@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "item": "crockpot:frog_legs"
+    }
+  ],
+  "result": "crockpot:cooked_frog_legs"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "crockpot:syrup"
+    },
+    {
+      "item": "citizenpot:food_ingredients_sweetener",
+      "count": 3
+    }
+  ],
+  "result": "crockpot:candy",
+  "count": 3
+}

@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "crockpot:hoglin_nose"
+    },
+    {
+      "item":"citizenpot:food_ingredients_inedible"
+    },
+    {
+      "item": "citizenpot:food_ingredients_dairy"
+    }
+  ],
+  "result": "crockpot:milkmade_hat"
+}

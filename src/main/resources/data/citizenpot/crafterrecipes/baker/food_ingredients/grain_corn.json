@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "crockpot:corn"
+    }
+  ],
+  "result": "farm_and_charm:flour",
+  "show-tooltip": true
+}

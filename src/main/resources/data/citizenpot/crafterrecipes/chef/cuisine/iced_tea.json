@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:fern",
+      "count": 2
+    },
+    {
+      "item": "citizenpot:food_ingredients_sweetener"
+    },
+    {
+      "item": "citizenpot:food_ingredients_frozen"
+    }
+  ],
+  "result": "crockpot:iced_tea"
+}

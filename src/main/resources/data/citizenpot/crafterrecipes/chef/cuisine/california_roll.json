@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:dried_kelp",
+      "count": 3
+    },
+    {
+      "item": "citizenpot:food_ingredients_fish"
+    }
+  ],
+  "result": "crockpot:california_roll"
+}

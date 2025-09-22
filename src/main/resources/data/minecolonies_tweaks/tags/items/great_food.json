@@ -1,0 +1,31 @@
+{
+	"replace": false,
+	"values": [
+		{"id":"bakery:apple_cupcake","required": false},
+		{"id":"bakery:apple_pie_slice","required": false},
+		{"id":"bakery:bundt_cake_slice","required": false},
+		{"id":"bakery:chocolate_cake_slice","required": false},
+		{"id":"bakery:chocolate_gateau_slice","required": false},
+		{"id":"bakery:chocolate_tart_slice","required": false},
+		{"id":"bakery:glowberry_pie_slice","required": false},
+		{"id":"bakery:linzer_tart_slice","required": false},
+		{"id":"bakery:pudding_slice","required": false},
+		{"id":"bakery:strawberry_cake_slice","required": false},
+		{"id":"bakery:strawberry_cupcake","required": false},
+		{"id":"bakery:sweetberry_cake_slice","required": false},
+		{"id":"bakery:sweetberry_cupcake","required": false},
+		{"id":"crockpot:bacon_eggs","required": false},
+		{"id":"crockpot:bone_stew","required": false},
+		{"id":"crockpot:flower_salad","required": false},
+		{"id":"crockpot:froggle_bunwich","required": false},
+		{"id":"crockpot:honey_ham","required": false},
+		{"id":"crockpot:hot_chili","required": false},
+		{"id":"crockpot:moqueca","required": false},
+		{"id":"crockpot:pumpkin_cookie","required": false},
+		{"id":"crockpot:scotch_egg","required": false},
+		{"id":"crockpot:surf_n_turf","required": false},
+		{"id":"crockpot:turkey_dinner","required": false},
+		{"id":"farm_and_charm:chicken_wrapped_in_bacon","required": false},
+		{"id":"farm_and_charm:farmers_breakfast","required": false}
+	]
+}

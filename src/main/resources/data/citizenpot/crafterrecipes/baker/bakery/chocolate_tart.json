@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "bakery:chocolate_truffle",
+      "count": 2
+    },
+    {
+      "item": "bakery:sweet_dough"
+    },
+    {
+      "item": "farm_and_charm:yeast"
+    }
+  ],
+  "result": "bakery:chocolate_tart"
+}

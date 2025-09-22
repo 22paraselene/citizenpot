@@ -1,0 +1,15 @@
+{
+  "itemGroup.citizenpot": "Citizen Pot",
+  "item.citizenpot.food_ingredients_meat": "Meat Ingredients",
+  "item.citizenpot.food_ingredients_monster": "Monster Ingredients",
+  "item.citizenpot.food_ingredients_fish": "Fish Ingredients",
+  "item.citizenpot.food_ingredients_egg": "Egg Ingredients",
+  "item.citizenpot.food_ingredients_fruit": "Fruit Ingredients",
+  "item.citizenpot.food_ingredients_veggie": "Vegetable Ingredients",
+  "item.citizenpot.food_ingredients_dairy": "Dairy Ingredients",
+  "item.citizenpot.food_ingredients_sweetener": "Sweetener Ingredients",
+  "item.citizenpot.food_ingredients_frozen": "Frozen Ingredients",
+  "item.citizenpot.food_ingredients_inedible": "Cooking Sundries",
+  "item.citizenpot.food_ingredients_grain": "Grain Ingredients",
+  "item.citizenpot.food_ingredients_bread": "Bread Ingredients"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_fruit",
+  "show-tooltip": true
+}

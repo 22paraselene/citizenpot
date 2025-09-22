@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "tool": "minecolonies_tweaks:knife",
+  "inputs": [
+    {
+      "item": "bakery:chocolate_cake"
+    }
+  ],
+  "count": 4,
+  "result": "bakery:chocolate_cake_slice"
+}

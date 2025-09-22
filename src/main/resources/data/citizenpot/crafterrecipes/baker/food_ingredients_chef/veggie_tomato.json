@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "crockpot:tomato"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_veggie",
+  "show-tooltip": true
+}

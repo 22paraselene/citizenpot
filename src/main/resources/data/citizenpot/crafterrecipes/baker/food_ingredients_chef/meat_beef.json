@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_meat",
+  "show-tooltip": true
+}

@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "crockpot:popcorn",
+      "count": 4
+    }
+  ],
+  "result": "crockpot:syrup"
+}

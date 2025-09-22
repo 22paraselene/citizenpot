@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_dairy",
+  "show-tooltip": true
+}

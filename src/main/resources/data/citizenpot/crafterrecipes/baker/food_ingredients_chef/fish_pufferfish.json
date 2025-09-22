@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:pufferfish"
+    }
+  ],
+  "additional-output": [
+    {
+      "count": 2,
+      "item": "citizenpot:food_ingredients_monster"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_fish",
+  "show-tooltip": true
+}

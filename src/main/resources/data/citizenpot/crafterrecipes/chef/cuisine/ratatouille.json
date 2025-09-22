@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_veggie",
+      "count": 4
+    }
+  ],
+  "result": "crockpot:ratatouille"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_fruit",
+  "show-tooltip": true
+}

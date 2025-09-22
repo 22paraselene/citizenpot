@@ -1,0 +1,54 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "farm_and_charm"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farm_and_charm"
+    }
+  ],
+  "type": "crockpot:crock_pot_cooking",
+  "cookingtime": 100,
+  "potlevel": 0,
+  "priority": 20,
+  "requirements": [
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "crockpot:tomato"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "minecraft:bowl"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "CATEGORY_MIN",
+      "category": "SWEETENER",
+      "min": 0.5
+    },
+    {
+      "type": "CATEGORY_MAX",
+      "category": "MONSTER",
+      "max": 0.0
+    },
+    {
+      "type": "CATEGORY_MAX",
+      "category": "INEDIBLE",
+      "max": 1.0
+    }
+  ],
+  "result": {
+    "item": "farm_and_charm:simple_tomato_soup"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:warped_fungus"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "citizenpot:food_ingredients_veggie"
+    }
+  ],
+  "count": 2,
+  "result": "citizenpot:food_ingredients_monster",
+  "show-tooltip": true
+}

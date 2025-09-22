@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:furnace",
+  "inputs": [
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "result": "minecraft:cooked_beef"
+}

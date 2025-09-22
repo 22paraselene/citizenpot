@@ -1,0 +1,64 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "crockpot:crock_pot_cooking",
+  "cookingtime": 80,
+  "potlevel": 0,
+  "priority": 50,
+  "requirements": [
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "minecraft:glow_berries"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": {
+        "item": "minecraft:sugar"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "MUST_CONTAIN_INGREDIENT",
+      "ingredient": [
+        {
+          "item": "bakery:jar"
+        },
+        {
+          "item": "minecolonies:large_empty_bottle"
+        }
+      ],
+      "quantity": 1
+    },
+    {
+      "type": "CATEGORY_MAX",
+      "category": "MEAT",
+      "max": 0.0
+    },
+    {
+      "type": "CATEGORY_MAX",
+      "category": "FISH",
+      "max": 0.0
+    },
+    {
+      "type": "CATEGORY_MAX",
+      "category": "MONSTER",
+      "max": 0.0
+    }
+  ],
+  "result": "bakery:glowberry_jam"
+}

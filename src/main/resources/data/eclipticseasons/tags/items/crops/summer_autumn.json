@@ -1,0 +1,8 @@
+{
+  "values": [
+    {"id": "crockpot:eggplant_seeds","required": false},
+    {"id": "crockpot:pepper_seeds","required": false},
+    {"id": "crockpot:tomato_seeds","required": false},
+    {"id": "farm_and_charm:barley_seeds","required": false}
+  ]
+}

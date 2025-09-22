@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_meat",
+      "count": 2
+    },
+    {
+      "item": "citizenpot:food_ingredients_veggie",
+      "count": 2
+    }
+  ],
+  "result": "crockpot:hot_chili"
+}

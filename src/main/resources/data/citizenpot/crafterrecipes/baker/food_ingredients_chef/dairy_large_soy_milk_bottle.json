@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecolonies:large_soy_milk_bottle"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:large_empty_bottle"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_dairy",
+  "show-tooltip": true
+}

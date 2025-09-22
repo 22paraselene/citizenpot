@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:melon"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_fruit",
+  "show-tooltip": true
+}

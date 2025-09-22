@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "bakery:apple_jam"
+    },
+    {
+      "item": "bakery:sweet_dough",
+      "count": 2
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "additional-output": [
+    {
+      "item": "minecolonies:large_empty_bottle"
+    }
+  ],
+  "count": 5,
+  "result": "bakery:cornet"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:chicken",
+      "count": 2
+    },
+    {
+      "item": "citizenpot:food_ingredients_meat"
+    },
+    {
+      "item": "citizenpot:food_ingredients_veggie"
+    }
+  ],
+  "result": "crockpot:turkey_dinner"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_fish",
+      "count": 2
+    },
+    {
+      "item": "crockpot:onion"
+    },
+    {
+      "item": "crockpot:tomato"
+    }
+  ],
+  "result": "crockpot:moqueca"
+}

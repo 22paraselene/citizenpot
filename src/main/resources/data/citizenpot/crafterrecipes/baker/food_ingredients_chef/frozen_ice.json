@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_frozen",
+  "show-tooltip": true
+}

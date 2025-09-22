@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:turtle_egg"
+    }
+  ],
+  "count": 2,
+  "result": "citizenpot:food_ingredients_egg",
+  "show-tooltip": true
+}

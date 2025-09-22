@@ -1,0 +1,12 @@
+{
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "crockpot:cooked_egg"
+    }
+  ],
+  "result": "citizenpot:food_ingredients_egg",
+  "show-tooltip": true
+}

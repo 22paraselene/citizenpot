@@ -1,0 +1,8 @@
+{
+  "values": [
+    {"id": "crockpot:corn_seeds","required": false},
+    {"id": "crockpot:pepper_seeds","required": false},
+    {"id": "farm_and_charm:kernels","required": false},
+    {"id": "farm_and_charm:oat_seeds","required": false}
+  ]
+}

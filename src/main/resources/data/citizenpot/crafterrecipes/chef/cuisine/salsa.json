@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "crockpot:tomato",
+      "count": 2
+    },
+    {
+      "item": "crockpot:onion",
+      "count": 2
+    }
+  ],
+  "result": "crockpot:salsa"
+}

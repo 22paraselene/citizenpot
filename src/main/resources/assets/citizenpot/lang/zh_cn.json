@@ -1,0 +1,15 @@
+{
+  "itemGroup.citizenpot": "市民锅",
+  "item.citizenpot.food_ingredients_meat": "肉食材",
+  "item.citizenpot.food_ingredients_monster": "怪物食材",
+  "item.citizenpot.food_ingredients_fish": "鱼食材",
+  "item.citizenpot.food_ingredients_egg": "蛋食材",
+  "item.citizenpot.food_ingredients_fruit": "水果食材",
+  "item.citizenpot.food_ingredients_veggie": "蔬菜食材",
+  "item.citizenpot.food_ingredients_dairy": "乳食材",
+  "item.citizenpot.food_ingredients_sweetener": "糖食材",
+  "item.citizenpot.food_ingredients_frozen": "冰食材",
+  "item.citizenpot.food_ingredients_inedible": "料理杂物",
+  "item.citizenpot.food_ingredients_grain": "谷物食材",
+  "item.citizenpot.food_ingredients_bread": "面包食材"
+}

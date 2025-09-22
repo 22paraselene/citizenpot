@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:salmon",
+      "count": 2
+    },
+    {
+      "item": "minecraft:dried_kelp",
+      "count": 2
+    }
+  ],
+  "result": "crockpot:salmon_sushi",
+  "count": 2
+}

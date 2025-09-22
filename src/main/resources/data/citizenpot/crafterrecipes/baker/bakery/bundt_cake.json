@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_egg"
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 2
+    },
+    {
+      "item": "farm_and_charm:yeast"
+    }
+  ],
+  "result": "bakery:bundt_cake"
+}

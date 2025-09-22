@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "crockpot:volt_goat_horn"
+    },
+    {
+      "item": "citizenpot:food_ingredients_sweetener",
+      "count": 3
+    }
+  ],
+  "result": "crockpot:volt_goat_jelly"
+}

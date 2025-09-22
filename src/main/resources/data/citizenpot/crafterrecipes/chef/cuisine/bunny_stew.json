@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:rabbit"
+    },
+    {
+      "item": "citizenpot:food_ingredients_frozen",
+      "count": 3
+    }
+  ],
+  "result": "crockpot:bunny_stew"
+}

@@ -1,0 +1,34 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bakery"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bakery"
+    }
+  ],
+  "type": "recipe",
+  "crafter": "baker_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_dairy"
+    },
+    {
+      "item": "bakery:chocolate_truffle"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecolonies:large_empty_bottle"
+    }
+  ],
+  "result": "bakery:chocolate_jam"
+}

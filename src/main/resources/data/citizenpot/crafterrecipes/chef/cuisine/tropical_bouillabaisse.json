@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "citizenpot:food_ingredients_fish",
+      "count": 3
+    },
+    {
+      "item": "citizenpot:food_ingredients_veggie"
+    }
+  ],
+  "result": "crockpot:tropical_bouillabaisse"
+}

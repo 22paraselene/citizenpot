@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "intermediate": "minecraft:air",
+  "inputs": [
+    {
+      "item": "minecraft:baked_potato",
+      "count": 2
+    },
+    {
+      "item":"citizenpot:food_ingredients_inedible",
+      "count": 2
+    }
+  ],
+  "result": "crockpot:potato_tornado"
+}
