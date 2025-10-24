@@ -56,11 +56,6 @@
     },
     {
       "type": "CATEGORY_MAX",
-      "category": "INEDIBLE",
-      "max": 0.5
-    },
-    {
-      "type": "CATEGORY_MAX",
       "category": "MONSTER",
       "max": 0.0
     }

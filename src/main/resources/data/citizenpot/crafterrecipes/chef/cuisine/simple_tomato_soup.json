@@ -19,7 +19,7 @@
   "inputs": [
     {
       "count": 2,
-      "item": "farm_and_charm:simple_tomato_soup"
+      "item": "farm_and_charm:tomato"
     },
     {
       "item": "citizenpot:food_ingredients_sweetener"

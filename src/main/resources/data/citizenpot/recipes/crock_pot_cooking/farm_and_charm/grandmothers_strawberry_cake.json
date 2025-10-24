@@ -45,7 +45,7 @@
     {
       "type": "CATEGORY_MAX",
       "category": "INEDIBLE",
-      "max": 0.0
+      "max": 0.5
     }
   ],
   "result": {
